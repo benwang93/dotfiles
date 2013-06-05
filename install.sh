@@ -9,5 +9,5 @@ chmod +x zsh-config.sh
 for file in $LIST
 do
     mv ~/.${file} ~/.${file}.old
-    ln -s ${DIR}/.${file} ~/.${file}
+    ln -s ${DIR}/${file} ~/.${file}
 done
